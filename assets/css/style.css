@@ -3,7 +3,7 @@
 	clear: both;
 	color: #ffffff;
 	background-color: teal;
-	font-size: 50px;
+	font-size: 45px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	margin: auto;
 	display: inline-block;
@@ -12,8 +12,9 @@
 header {
 	background-color: #ffffff;
 	height: 45px;
+	border-bottom: 5px solid #666666;
+	}
 	
-}
 .header_with_links {
 	display: inline-block;
 	float: right;
