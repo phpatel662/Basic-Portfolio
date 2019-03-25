@@ -41,7 +41,6 @@ li a {
 	text-decoration: none;
 }
 .wrapper {
-	width: 960px;
 	height: 300px;
     border: 1px solid grey;
 	background-color: white;
@@ -114,12 +113,10 @@ button {
 
 footer {
 	background-color:#666666;
-	height: 25px;
+	height: 40px;
 	color: white;
 	border-top: 8px solid #4aaaa5;
-	position: absolute;
-	right: 0; bottom:0; left:0;
-	text-align: center;
+    text-align: center;
 }
 
 p { 
@@ -129,3 +126,20 @@ p {
 form {
 	color: #777777;
 }
+
+@media screen and (max-width: 980px) {
+body { position: relative;
+}
+}
+
+@media screen and (max-width: 768px) {
+body { position: relative;
+}
+}
+
+@media screen and (max-width: 640px) {
+	header {
+		position: relative;
+	}}
+
+
