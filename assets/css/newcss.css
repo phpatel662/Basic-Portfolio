@@ -8,12 +8,19 @@ body {
   font-family: 'Heebo', sans-serif;
   font-size: 40px;
   color: white;
+  margin: 0px;
 }
 
 .nav_bar {
   font-size: 20px;
 }
 
-.main-container {
-  background-image: url(http://paolaelefante.com/wp-content/uploads/2015/10/coding-750x410.jpg); background-size: 100%; opacity: 0.75; 
+div.container {
+  margin: 0px;
+}
+
+#accordion {
+  margin: 0px;
+  margin-left: -10px;
+  margin-right: -310px;
 }
